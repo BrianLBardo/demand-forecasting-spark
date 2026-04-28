@@ -1,4 +1,4 @@
-# Demand-Forecasting-Spark  
+# Demand Forecasting Spark  
 **End-to-end machine-learning pipeline that predicts daily SKU demand for a global online retailer.**
 
 ## Business Value
