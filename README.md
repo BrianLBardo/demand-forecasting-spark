@@ -1,4 +1,4 @@
-# Demand-Forecast-Spark  
+# Demand-Forecasting-Spark  
 **End-to-end machine-learning pipeline that predicts daily SKU demand for a global online retailer.**
 
 ## 🎯 Business Value
@@ -15,9 +15,6 @@
 |--------|-------|
 | MAE (daily level) | 15 % lower than naive weekly moving average |
 | Week-39 forecast | **quantity_sold_w39** units (2 % vs actuals) |
-
-## 🚀 Requirements
-PySpark 3.4 | Spark-ML | Random-Forest | pandas | Jupyter
 
 ## 📁 Data
 Project data can be downloaded from the following link: https://drive.google.com/file/d/14v0j5Zk_dF2b0t1aNAK3mOl8bNiB4GuH/view?usp=drive_link
