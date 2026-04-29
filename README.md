@@ -1,6 +1,24 @@
 # Demand Forecasting Spark  
 **End-to-end machine-learning pipeline that predicts daily SKU demand for a global online retailer.**
 
+## Data Structure
+|  Column       | Description                                                        |
+| ------------- | ------------------------------------------------------------------ |
+| 'InvoiceNo'   | 6-digit number uniquely assigned to each transaction               |
+| 'StockCode'   | 5-digit number uniquely assigned to each distinct product          |
+| 'Description' | Product name                                                       |
+| 'Quantity'    | Quantity of each product (item) per transaction                    |
+| 'UnitPrice'   | Product price per unit                                             |
+| 'CustomerID'  | 5-digit number uniquely assigned to each customer                  |
+| 'Country'     | The name of the country where each customer resides                |
+| 'InvoiceDate' | The day and time when each transaction was generated "MM/DD/YYYY"  |
+| 'Year'        | The year when each transaction was generated                       |
+| 'Month'       | The month when each transaction was generated                      |
+| 'Week'        | The week when each transaction was generated (1-52)                |
+| 'Day'         | The day of the month when each transaction was generated (1-31)    |
+| 'DayOfWeek'   | The day of the weeke when each transaction was generated           |
+(0 = Monday, 6 = Sunday)
+
 ## Methodology
 Clean – remove returns, negatives, missing customer keys
 Aggregate – roll to daily level (grader requirement)
